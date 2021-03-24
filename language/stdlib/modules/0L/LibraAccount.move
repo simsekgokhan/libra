@@ -36,6 +36,7 @@ module LibraAccount {
     use 0x1::Globals;
     use 0x1::MinerState;
     use 0x1::TrustedAccounts;
+    use 0x1::ValidatorUniverse;
 
     /// An `address` is a Libra Account if it has a published LibraAccount resource.
     resource struct LibraAccount {
@@ -944,6 +945,7 @@ module LibraAccount {
         payee: address
     ) acquires LibraAccount, Balance, AccountOperationsCapability {
         let payer_addr = Signer::address_of(payer_sig);
+        assert(ValidatorUniverse::is_in_universe(payee), Errors::not_published(EACCOUNT));
         let account_balance = borrow_global_mut<Balance<Token>>(payer_addr);
         let balance_coin = &mut account_balance.coin;
         // Doubly check balance exists.
