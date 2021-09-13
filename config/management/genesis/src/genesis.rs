@@ -14,6 +14,9 @@ use std::{fs::File, io::{Read, Write}, path::PathBuf};
 use structopt::StructOpt;
 use vm_genesis::{OperatorAssignment, OperatorRegistration, GenesisMiningProof};
 
+//////// 0L ////////
+use ol_types::account::ValConfigs;
+
 /// Note, it is implicitly expected that the storage supports
 /// a namespace but one has not been set.
 #[derive(Debug, StructOpt)]
@@ -44,6 +47,7 @@ impl Genesis {
         // for dev and testnets layouts can be found on genesis repo
         let layout: Layout = match &self.layout_path {
           Some(p) => {
+            println!("Getting genesis validator set from file: {:?}\n", &self.layout_path);
             let mut file = File::open(p).expect("could not open layout file");
             let mut layout = String::new();
             file.read_to_string(&mut layout).expect("could not read");
@@ -135,9 +139,17 @@ impl Genesis {
                 .into_script_function();
 
             //////// 0L ////////
+            let profile: Option<ValConfigs> = match owner_storage.string(diem_global_constants::ACCOUNT_PROFILE) {
+              Ok(s) => {
+                serde_json::from_str(&s).ok()
+              }
+              Err(_) => None
+            };
+
             let pow = GenesisMiningProof {
                 preimage: owner_storage.string(diem_global_constants::PROOF_OF_WORK_PREIMAGE).unwrap(),
                 proof: owner_storage.string(diem_global_constants::PROOF_OF_WORK_PROOF).unwrap(),
+                profile,
             };
 
             let owner_name_vec = owner.as_bytes().to_vec();
@@ -147,7 +159,8 @@ impl Genesis {
                     owner_name_vec, 
                     set_operator_script,  
                     //////// 0L ////////
-                    pow
+                    pow,
+                    operator_account,
                 )
             );
         }
@@ -181,7 +194,7 @@ impl Genesis {
                 operator_key,
                 operator_name.as_bytes().to_vec(),
                 validator_config_tx,
-                operator_account,                
+                operator_account,              
             ));
         }
         //////// 0L end ////////
