@@ -1,8 +1,8 @@
 //! Key generation
 use std::env;
 
-use libra_wallet::{Mnemonic, WalletLibrary};
-use libra_types::{
+use diem_wallet::{Mnemonic, WalletLibrary};
+use diem_types::{
   account_address::AccountAddress,
   transaction::authenticator::AuthenticationKey
 };
@@ -79,7 +79,7 @@ pub fn get_account_from_prompt()
 
 #[test]
 fn wallet() { 
-    use libra_wallet::Mnemonic;
+    use diem_wallet::Mnemonic;
     let mut wallet = WalletLibrary::new();
 
     let (auth_key, child_number) = wallet.new_address().expect(
@@ -104,4 +104,13 @@ fn wallet() {
 
     // Expect this to be zero before we haven't populated the address map in the repo
     assert!(vec_addresses.len() == 1);
+}
+
+#[test]
+fn check_address_derivation_does_not_change() {
+  // This test check that nothing in the account derivation from mnemonic through 
+  // to account changes. The reason an account could be different the salt changes.
+  let alice_mnem = "talent sunset lizard pill fame nuclear spy noodle basket okay critic grow sleep legend hurry pitch blanket clerk impose rough degree sock insane purse";
+  let (_, b, _) = get_account_from_mnem(alice_mnem.to_owned());
+  assert_eq!(b.to_hex().to_ascii_uppercase(), "4C613C2F4B1E67CA8D98A542EE3F59F5")
 }
