@@ -347,7 +347,7 @@ address 0x1 {
     }
 
     
-    public fun calc_auction(
+    fun calc_auction(
       ceiling: u64,
       baseline_auction_units: u64,
       current_proofs_verified: u64,
@@ -457,5 +457,18 @@ address 0x1 {
       state.current_subsidy_distributed = current_subsidy_distributed;
       state.current_proofs_verified = current_proofs_verified;
     }
+
+    public fun test_fullnode_subsidy_calc(): u64 {
+      let ceiling = 101u64; // note the rounding
+      let baseline_auction_units =  10u64;
+      let current_proofs_verified = 5u64;
+      
+      calc_auction(
+          ceiling,
+          baseline_auction_units,
+          current_proofs_verified
+      )
+    }
+
 }
 }
