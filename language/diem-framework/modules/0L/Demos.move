@@ -39,6 +39,9 @@ address 0x1{
         }
 
         // A simple example/demo spec 
+        // To run move prover:
+        // cargo run --release -p move-prover -- language/diem-framework/modules/0L/Demos.move
+        // More: https://github.com/OLSF/libra/blob/main/ol/documentation/devs/move-prover-guide.md
         spec initialize {
             let addr = Signer::address_of(sender);
             // Note: Change this to non-zero value to get move prover error
