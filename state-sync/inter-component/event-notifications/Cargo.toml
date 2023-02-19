@@ -14,7 +14,7 @@ async-trait = "0.1.42"
 futures = "0.3.12"
 itertools = { version = "0.10.0", default-features = false }
 serde = { version = "1.0.124", default-features = false }
-thiserror = "1.0.24"
+thiserror = "1.0.37"
 tokio = { version = "1.8.1" }
 
 channel = { path = "../../../crates/channel" }
@@ -26,7 +26,7 @@ storage-interface = { path = "../../../storage/storage-interface" }
 
 
 [dev-dependencies]
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 claim = "0.5.0"
 
 diem-crypto = { path = "../../../crates/diem-crypto" }

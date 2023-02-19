@@ -7,6 +7,6 @@ edition = "2018"
 [dependencies]
 diem-global-constants = { path = "../../config/global-constants" }
 dirs = "2.0.2"
-regex = "1"
+regex = "1.5.5"
 chrono = "0.4"
 fs_extra = "1"

@@ -7,19 +7,19 @@ edition = "2018"
 [dependencies]
 ajson = "0.2.3"
 anyhow = "1.0.31"
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 byteorder = "1"
 dirs = "2.0.2"
 dialoguer = "0.8.0"
 glob = "0.3"
 gumdrop = "0.7"
 hex = "0.4"
-regex = "1"
+regex = "1.5.5"
 rpassword = "5.0"
 rustyline = "6.2.0"
 serde = { version = "1", features = ["serde_derive"] }
 serde_json = "1"
-thiserror = "1"
+thiserror = "1.0.37"
 toml = "0.5.6"
 wait-timeout = "0.2.0"
 

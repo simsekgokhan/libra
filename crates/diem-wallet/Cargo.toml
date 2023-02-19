@@ -18,7 +18,7 @@ byteorder = "1.4.3"
 pbkdf2 = "0.7.3"
 serde = "1.0.124"
 sha2 = "0.9.3"
-thiserror = "1.0.24"
+thiserror = "1.0.37"
 diem-crypto = { path = "../diem-crypto", features = ["fuzzing"] }
 diem-temppath = { path = "../diem-temppath" }
 diem-types = { path = "../../types" }

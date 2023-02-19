@@ -12,7 +12,7 @@ publish = false
 [dependencies]
 anyhow = "1.0.52"
 goldenfile = "1.1.0"
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 once_cell = "1.7.2"
 rand = "0.8.3"
 proptest = "1.0.0"

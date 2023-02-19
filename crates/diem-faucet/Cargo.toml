@@ -11,7 +11,7 @@ edition = "2018"
 
 [dependencies]
 anyhow = "1.0.52"
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 hex = "0.4.3"
 rand = "0.8.3"
 reqwest = { version = "0.11.2", features = ["blocking"], default-features = false }

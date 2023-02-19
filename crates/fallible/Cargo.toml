@@ -10,5 +10,5 @@ publish = false
 edition = "2018"
 
 [dependencies]
-thiserror = "1.0"
+thiserror = "1.0.37"
 diem-workspace-hack = { version = "0.1", path = "../diem-workspace-hack" }

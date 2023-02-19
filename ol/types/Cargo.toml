@@ -5,7 +5,7 @@ authors = [""]
 edition = "2018"
 
 [dependencies]
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 diem-config = { path = "../../config/"}
 reqwest = { version = "0.11.2", features = ["blocking", "json"], default_features = false }
 diem-types = { path = "../../types/" }

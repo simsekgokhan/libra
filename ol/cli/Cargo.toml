@@ -14,7 +14,7 @@ once_cell = "1.7.2"
 sysinfo = "0.16.4"
 gumdrop = "0.7"
 serde = { version = "1", features = ["serde_derive"] }
-thiserror = "1"
+thiserror = "1.0.37"
 reqwest = { version = "0.11.2", features = ["blocking", "json"], default_features = false }
 diem-types = { path = "../../types/" }
 num-format = "0.4.0"
@@ -51,7 +51,7 @@ diemdb = { path = "../../storage/diemdb", version = "0.1.0" }
 diem-temppath = { path = "../../crates/diem-temppath", version = "0.1.0" }
 ol-keys = { path = "../../ol/keys/", version = "0.1.0" }
 abscissa_tokio = "0.5"
-regex = "1"
+regex = "1.5.5"
 ol-types = { path = "../../ol/types"}
 storage-interface = { path = "../../storage/storage-interface", version = "0.1.0" }
 fs_extra = "1"
@@ -60,7 +60,7 @@ backup-cli = { path = "../../storage/backup/backup-cli", version = "0.1.0" }
 move-core-types = { git = "https://github.com/simsekgokhan/move-0L", rev = "f75ad3d67de41be8d4989fa398abbcbcfdb67806" }
 walkdir = "2.3"
 rand = "0.8"
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 move-vm-types = { git = "https://github.com/simsekgokhan/move-0L", rev = "f75ad3d67de41be8d4989fa398abbcbcfdb67806" } # 0L todo: which move-vm/ path?
 move-binary-format = { git = "https://github.com/simsekgokhan/move-0L", rev = "f75ad3d67de41be8d4989fa398abbcbcfdb67806" }
 dialoguer = "0.8.0"

@@ -13,7 +13,7 @@ rand = { version = "0.8.3", default-features = false }
 consensus-types = { path = "../../consensus/consensus-types", default-features = false }
 executor = { path = "../executor" }
 executor-types = { path = "../executor-types" }
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 diem-config = { path = "../../config" }
 diem-crypto = { path = "../../crates/diem-crypto" }
 diem-global-constants = { path = "../../config/global-constants"}
@@ -28,7 +28,7 @@ diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hac
 serde = { version = "1.0.124", default-features = false }
 storage-client = { path = "../../storage/storage-client" }
 storage-interface = { path = "../../storage/storage-interface" }
-thiserror = "1.0.24"
+thiserror = "1.0.37"
 # this is actually a dev-dependency (see "Conditional compilation of tests" in coding_guidelines.md)
 executor-test-helpers = { path = "../executor-test-helpers", optional = true }
 

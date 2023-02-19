@@ -10,7 +10,7 @@ publish = false
 edition = "2018"
 
 [dependencies]
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 diem-types = { path = "../../types" }
 diem-workspace-hack = { path = "../../crates/diem-workspace-hack" }
 move-binary-format = { git = "https://github.com/simsekgokhan/move-0L", rev = "f75ad3d67de41be8d4989fa398abbcbcfdb67806" }

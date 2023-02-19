@@ -15,7 +15,7 @@ futures = "0.3.12"
 itertools = "0.10.0"
 rand = "0.8.3"
 serde = { version = "1.0.124", default-features = false }
-thiserror = "1.0.24"
+thiserror = "1.0.37"
 
 diem-config = { path = "../../config" }
 diem-crypto = { path = "../../crates/diem-crypto" }
@@ -36,7 +36,7 @@ claim = "0.5.0"
 maplit = "1.0.2"
 tokio = { version = "1.8.1", features = ["rt", "macros"], default-features = false }
 
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 channel = { path = "../../crates/channel" }
 diem-time-service = { path = "../../crates/diem-time-service", features = ["async", "testing"] }
 network = { path = "../../network", features = ["fuzzing"] }

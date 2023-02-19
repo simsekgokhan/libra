@@ -8,11 +8,11 @@ repository = "https://github.com/0LNetworkCommunity/libra"
 homepage = "https://github.com/0LNetworkCommunity/"
 
 [dependencies]
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 wait-timeout = "0.2.0"
 gumdrop = "0.7"
 serde = { version = "1", features = ["serde_derive"] }
-thiserror = "1"
+thiserror = "1.0.37"
 classgroup = { path = "../../ol/verifiable_delay/classgroup" }
 vdf = { path = "../../ol/verifiable_delay/vdf" }
 hex = { version = "0.4.2", features = ["serde"] }
@@ -29,7 +29,7 @@ diem-logger = { path = "../../crates/diem-logger" }
 storage-interface= {path = "../../storage/storage-interface"}
 vm-genesis={path="../../diem-move/vm-genesis"}
 move-core-types = { git = "https://github.com/simsekgokhan/move-0L", rev = "f75ad3d67de41be8d4989fa398abbcbcfdb67806" }
-regex = "1"
+regex = "1.5.5"
 rpassword = "5.0"
 ajson = "0.2.3"
 rustyline = "6.2.0"

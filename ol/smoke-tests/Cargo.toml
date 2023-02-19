@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0.52"
 async-trait = "0.1.42"
-bcs = "0.1.2"
+bcs = { git = "https://github.com/aptos-labs/bcs.git", rev = "d31fab9d81748e2594be5cd5cdf845786a30562d" }
 proptest = "1.0.0"
 tokio = { version = "1.8.1", features = ["full"] }
 walkdir = "2.3.1"
@@ -37,7 +37,7 @@ base64 = "0.13.0"
 hex = "0.4.3"
 once_cell = "1.7.2"
 rand = "0.8.3"
-regex = "1.4.3"
+regex = "1.5.5"
 serde_yaml = "0.8.17"
 futures = "0.3.12"
 backup-cli = { path = "../../storage/backup/backup-cli" }
