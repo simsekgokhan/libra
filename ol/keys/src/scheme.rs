@@ -6,7 +6,8 @@ use diem_wallet::{
     Mnemonic, WalletLibrary,
 };
 
-/// The key derivation used throughout 0L for configuration of validators and miners. Depended on by config/management for genesis.
+/// The key derivation used throughout 0L for configuration of validators and miners. 
+/// Depended on by config/management for genesis.
 // #[derive(Debug)]
 pub struct KeyScheme {
     /// Owner key, the main key where funds are kept
