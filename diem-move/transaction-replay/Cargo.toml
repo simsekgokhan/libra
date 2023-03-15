@@ -19,15 +19,15 @@ diem-state-view = { path = "../../storage/state-view" }
 diem-validator-interface = { path = "../diem-validator-interface" }
 diemdb = { path = "../../storage/diemdb" }
 diem-vm = { path = "../diem-vm" }
-move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f"}
-move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-vm-test-utils = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
+move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194"}
+move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-vm-test-utils = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
 diem-resource-viewer = { path = "../diem-resource-viewer" }
 diem-framework = { path = "../../diem-move/diem-framework" }
-move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
+move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
 bcs = "0.1.2"
 difference = "2.0.0"
 

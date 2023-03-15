@@ -25,7 +25,7 @@ tokio = { version = "1.8.1", features = ["full"] }
 toml = "0.5.8"
 url = { version = "2.2.2", features = ["serde"] }
 
-move-abigen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
+move-abigen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
 diem-api-types = { path = "../../api/types" }
 diem-config = { path = "../../config" }
 diem-crypto = { path = "../../crates/diem-crypto" }
@@ -41,12 +41,12 @@ diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hac
 diemdb = { path = "../../storage/diemdb" }
 forge = { path = "../../testsuite/forge" }
 generate-key = { path = "../../config/generate-key" }
-move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-package = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
-move-unit-test = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "fe7ea743ef6fd13aaff46357667a28530dba203f" }
+move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-package = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-unit-test = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
 serde-reflection = "0.3.5"
 serde-generate = "0.20.6"
 serde_json = "1.0.68"
