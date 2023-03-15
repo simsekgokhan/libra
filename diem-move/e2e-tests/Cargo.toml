@@ -21,13 +21,13 @@ hex = "0.4.3"
 serde = { version = "1.0.124", default-features = false }
 
 ## Move dependencies
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-ir-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-read-write-set = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-command-line-common = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-ir-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+read-write-set = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-command-line-common = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 
 ## Diem-Move dependencies
 diem-writeset-generator = { path = "../writeset-transaction-generator" }

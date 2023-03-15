@@ -10,25 +10,25 @@ license = "Apache-2.0"
 publish = false
 
 [dependencies]
-move-bytecode-verifier = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-abigen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-docgen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-command-line-common = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-errmapgen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-prover = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-bytecode-verifier = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-abigen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-docgen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-command-line-common = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-errmapgen = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-prover = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 diem-crypto = { path = "../../crates/diem-crypto" }
 diem-types = { path = "../../types" }
 diem-workspace-hack = { path = "../../crates/diem-workspace-hack" }
-move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 transaction-builder-generator = { path = "../transaction-builder-generator" }
-move-stdlib = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-symbol-pool = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-package = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-bytecode-utils = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-stdlib = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-symbol-pool = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-vm-runtime = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-package = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-bytecode-utils = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 
 bcs = "0.1.2"
 anyhow = "1.0.52"
@@ -45,8 +45,8 @@ tempfile = "3.2.0"
 [dev-dependencies]
 datatest-stable = "0.1.1"
 diem-vm = { path = "../../diem-move/diem-vm" }
-move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
-move-unit-test = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-cli = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-unit-test = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 diem-transactional-test-harness = { path = "../diem-transactional-test-harness" }
 
 dir-diff = "0.3.2"

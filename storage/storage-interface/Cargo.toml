@@ -23,7 +23,7 @@ diem-state-view = { path = "../state-view" }
 diem-types = { path = "../../types" }
 diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
 scratchpad = { path = "../scratchpad" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "273c2a52ae71783bdab9ba35f2d6dcf3b2fe4194" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
 
 [features]
 default = []
