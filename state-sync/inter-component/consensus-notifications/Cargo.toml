@@ -23,4 +23,4 @@ diem-workspace-hack = { version = "0.1", path = "../../../crates/diem-workspace-
 [dev-dependencies]
 claim = "0.5.0"
 
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "92f8d3fdb179137bebdc6104ea2c638976eb0511" }

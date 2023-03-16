@@ -34,5 +34,5 @@ diem-temppath = { path = "../../../crates/diem-temppath" }
 diem-vm = { path = "../../../diem-move/diem-vm" }
 diemdb = { path = "../../../storage/diemdb" }
 executor-test-helpers = { path = "../../../execution/executor-test-helpers" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "92f8d3fdb179137bebdc6104ea2c638976eb0511" }
 vm-genesis = { path = "../../../diem-move/vm-genesis", features = ["fuzzing"] }

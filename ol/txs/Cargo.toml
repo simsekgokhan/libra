@@ -38,11 +38,11 @@ diem-wallet = { path = "../../crates/diem-wallet" }
 diemdb = { path = "../../storage/diemdb"}
 diem-transaction-builder = { path = "../../sdk/transaction-builder" }
 executor-benchmark = { path = "../../execution/executor-benchmark" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "92f8d3fdb179137bebdc6104ea2c638976eb0511" }
 ol = {path = "../cli"}
 ol-keys = { path = "../keys/", version = "0.1.0" }
 ol-types = {path = "../../ol/types"}
-move-resource-viewer = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d" }
+move-resource-viewer = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "92f8d3fdb179137bebdc6104ea2c638976eb0511" }
 reqwest = { version = "0.11.2", features = ["blocking", "json"], default_features = false }
 storage-interface= {path = "../../storage/storage-interface"}
 vdf = { path = "../../ol/verifiable_delay/vdf", version = "^0.1.0" }
