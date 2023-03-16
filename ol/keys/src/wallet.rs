@@ -135,11 +135,11 @@ fn fixture_wallet() {
     let (main_addr, child_number) = wallet.new_address().unwrap();
     println!("wallet\n:{:?} === {:x}", child_number, main_addr);
 
-    let (_, acc, _) = get_account_from_mnem(mnemonic_string.to_owned()).unwrap();
-    dbg!(&acc);
+    let (_, addr, _) = get_account_from_mnem(mnemonic_string.to_owned()).unwrap();
+    dbg!(&addr);
 
     // expect the same address for alice
-    assert!(&acc.to_string() == "4C613C2F4B1E67CA8D98A542EE3F59F5");
+    assert!(&addr.to_string() == "4C613C2F4B1E67CA8D98A542EE3F59F5");
 }
 
 // TODO: this is duplicated with ol/types/config because of a dependency cycle. Move to Global constants?
