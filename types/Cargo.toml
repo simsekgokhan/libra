@@ -30,8 +30,8 @@ tiny-keccak = { version = "2.0.2", default-features = false, features = ["sha3"]
 bcs = "0.1.2"
 diem-crypto = { path = "../crates/diem-crypto", version = "0.0.3" }
 diem-crypto-derive = { path = "../crates/diem-crypto-derive", version = "0.0.3" }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f", version = "0.0.3" }
-move-read-write-set-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f" }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d", version = "0.0.3" }
+move-read-write-set-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d" }
 # diem-workspace-hack = { version = "0.1", path = "../crates/diem-workspace-hack" }
 
 # //////// 0L ////////
@@ -44,7 +44,7 @@ proptest-derive = "0.3.0"
 serde_json = "1.0.64"
 
 diem-crypto = { path = "../crates/diem-crypto", features = ["fuzzing"] }
-move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "a22226aae916ff2d0ac530e838d7522d044ead1f", features = ["fuzzing"]  }
+move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", rev = "3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d", features = ["fuzzing"]  }
 
 [features]
 default = []

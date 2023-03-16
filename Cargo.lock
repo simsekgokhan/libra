@@ -71,7 +71,7 @@ dependencies = [
  "anyhow",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "mirai-annotations",
  "proptest",
  "rand 0.8.4",
@@ -340,15 +340,15 @@ dependencies = [
  "bytes 1.1.0",
  "diem-config",
  "diem-crypto",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-jellyfish-merkle",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-proptest-helpers",
  "diem-secure-push-metrics",
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-test-helpers",
@@ -383,11 +383,11 @@ dependencies = [
  "bytes 1.1.0",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "futures",
  "hyper 0.14.19",
@@ -581,7 +581,7 @@ checksum = "8d696c370c750c948ada61c69a0ee2cbbb9c50b1019ddb86d9317157a99c2cae"
 name = "bounded-executor"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "tokio 1.18.2",
 ]
@@ -629,7 +629,7 @@ checksum = "e3b5ca7a04898ad4bcd41c90c5285445ff5b791899bb1b0abdd2a2aa791211d7"
 [[package]]
 name = "bytecode-interpreter-crypto"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "curve25519-dalek-fiat",
@@ -784,10 +784,10 @@ name = "channel"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "diem-infallible 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-metrics",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "tokio 1.18.2",
 ]
@@ -883,15 +883,6 @@ name = "classgroup"
 version = "0.1.0"
 dependencies = [
  "criterion",
- "libc",
- "num-traits 0.2.15",
-]
-
-[[package]]
-name = "classgroup"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
  "libc",
  "num-traits 0.2.15",
 ]
@@ -1000,15 +991,15 @@ dependencies = [
  "consensus-types",
  "diem-config",
  "diem-crypto",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-mempool",
- "diem-metrics 0.1.0",
+ "diem-metrics",
  "diem-secure-storage",
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "event-notifications",
  "execution-correctness",
  "executor",
@@ -1047,7 +1038,7 @@ dependencies = [
  "claim",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "move-core-types",
  "serde 1.0.137",
@@ -1063,9 +1054,9 @@ dependencies = [
  "bcs",
  "diem-crypto",
  "diem-crypto-derive",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "executor-types",
  "itertools",
  "mirai-annotations",
@@ -1147,8 +1138,8 @@ name = "crash-handler"
 version = "0.1.0"
 dependencies = [
  "backtrace",
- "diem-logger 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-logger",
+ "diem-workspace-hack",
  "serde 1.0.137",
  "toml",
 ]
@@ -1450,11 +1441,11 @@ dependencies = [
  "diem-crypto",
  "diem-data-client",
  "diem-id-generator",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "enum_dispatch",
  "futures",
  "network",
@@ -1491,7 +1482,7 @@ dependencies = [
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "storage-interface",
@@ -1511,9 +1502,9 @@ dependencies = [
  "anyhow",
  "bytes 1.1.0",
  "diem-config",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-logger",
+ "diem-metrics",
+ "diem-workspace-hack",
  "reqwest 0.11.10",
  "serde 1.0.137",
  "serde_json",
@@ -1531,7 +1522,7 @@ dependencies = [
  "diem-sdk",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "generate-key",
  "hex 0.4.3",
  "log",
@@ -1574,7 +1565,7 @@ dependencies = [
  "datatest-stable",
  "diem-framework-releases",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-cli",
  "move-core-types",
  "structopt",
@@ -1606,15 +1597,15 @@ dependencies = [
  "diem-genesis-tool",
  "diem-global-constants",
  "diem-json-rpc",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-mempool",
- "diem-metrics 0.1.0",
+ "diem-metrics",
  "diem-sdk",
  "diem-secure-storage",
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-types",
@@ -1646,7 +1637,7 @@ dependencies = [
  "diem-crypto",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "move-binary-format",
  "move-core-types",
@@ -1665,7 +1656,7 @@ dependencies = [
  "diem-client",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-core-types",
  "serde 1.0.137",
  "serde_json",
@@ -1677,7 +1668,7 @@ name = "diem-bitvec"
 version = "0.1.0"
 dependencies = [
  "bcs",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "proptest",
  "proptest-derive",
  "serde 1.0.137",
@@ -1693,7 +1684,7 @@ dependencies = [
  "diem-crypto",
  "diem-json-rpc-types",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "ipnet",
  "move-core-types",
@@ -1717,12 +1708,12 @@ dependencies = [
  "diem-crypto",
  "diem-crypto-derive",
  "diem-global-constants",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-network-address-encryption",
  "diem-secure-storage",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "get_if_addrs",
  "log",
  "mirai-annotations",
@@ -1791,12 +1782,12 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-id-generator",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
  "diem-time-service",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "itertools",
  "maplit",
@@ -1815,7 +1806,7 @@ name = "diem-documentation-tool"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "once_cell",
  "regex",
  "serde 1.0.137",
@@ -1834,7 +1825,7 @@ dependencies = [
  "bcs",
  "diem-client",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "hex 0.4.3",
  "reqwest 0.11.10",
@@ -1850,7 +1841,7 @@ dependencies = [
  "bcs",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "framework-releases",
  "include_dir",
  "move-binary-format",
@@ -1865,10 +1856,10 @@ dependencies = [
  "anyhow",
  "bcs",
  "diem-config",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "generate-key",
  "hex 0.4.3",
  "rand 0.8.4",
@@ -1893,7 +1884,7 @@ dependencies = [
  "diem-transactional-test-harness",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "dir-diff",
  "include_dir",
  "log",
@@ -1931,7 +1922,7 @@ dependencies = [
  "bcs",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "framework-releases",
  "include_dir",
  "move-binary-format",
@@ -1945,7 +1936,7 @@ name = "diem-fuzz"
 version = "0.1.0"
 dependencies = [
  "diem-fuzzer",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "libfuzzer-sys",
  "once_cell",
 ]
@@ -1968,7 +1959,7 @@ dependencies = [
  "diem-proptest-helpers",
  "diem-types",
  "diem-vault-client",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-types",
@@ -2014,7 +2005,7 @@ dependencies = [
  "diem-types",
  "diem-vm",
  "diem-wallet",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "dirs",
  "executor",
@@ -2039,7 +2030,7 @@ name = "diem-github-client"
 version = "0.1.0"
 dependencies = [
  "base64 0.13.0",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "proxy",
  "serde 1.0.137",
  "serde_json",
@@ -2055,22 +2046,14 @@ version = "0.1.0"
 name = "diem-id-generator"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
 ]
 
 [[package]]
 name = "diem-infallible"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
-]
-
-[[package]]
-name = "diem-infallible"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "diem-workspace-hack 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
+ "diem-workspace-hack",
 ]
 
 [[package]]
@@ -2082,10 +2065,10 @@ dependencies = [
  "byteorder",
  "diem-crypto",
  "diem-crypto-derive",
- "diem-infallible 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-metrics",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "itertools",
  "mirai-annotations",
  "num-derive",
@@ -2111,17 +2094,17 @@ dependencies = [
  "diem-framework-releases",
  "diem-genesis-tool",
  "diem-id-generator",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-json-rpc-types",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-mempool",
- "diem-metrics 0.1.0",
+ "diem-metrics",
  "diem-proptest-helpers",
  "diem-sdk",
  "diem-temppath",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-types",
@@ -2160,7 +2143,7 @@ dependencies = [
  "diem-crypto",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "move-core-types",
  "num-derive",
@@ -2184,7 +2167,7 @@ dependencies = [
  "diem-genesis-tool",
  "diem-global-constants",
  "diem-json-rpc",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-mempool",
  "diem-secure-push-metrics",
  "diem-secure-storage",
@@ -2192,7 +2175,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-test-helpers",
@@ -2213,7 +2196,7 @@ version = "0.1.0"
 dependencies = [
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "rand 0.8.4",
  "sha3 0.9.1",
@@ -2223,18 +2206,7 @@ dependencies = [
 name = "diem-log-derive"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
- "proc-macro2 1.0.39",
- "quote 1.0.18",
- "syn 1.0.95",
-]
-
-[[package]]
-name = "diem-log-derive"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "diem-workspace-hack 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
+ "diem-workspace-hack",
  "proc-macro2 1.0.39",
  "quote 1.0.18",
  "syn 1.0.95",
@@ -2246,29 +2218,9 @@ version = "0.1.0"
 dependencies = [
  "backtrace",
  "chrono",
- "diem-infallible 0.1.0",
- "diem-log-derive 0.1.0",
- "diem-workspace-hack 0.1.0",
- "erased-serde",
- "hostname",
- "once_cell",
- "prometheus",
- "serde 1.0.137",
- "serde_json",
- "tracing",
- "tracing-subscriber 0.3.11",
-]
-
-[[package]]
-name = "diem-logger"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "backtrace",
- "chrono",
- "diem-infallible 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
- "diem-log-derive 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
- "diem-workspace-hack 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
+ "diem-infallible",
+ "diem-log-derive",
+ "diem-workspace-hack",
  "erased-serde",
  "hostname",
  "once_cell",
@@ -2295,7 +2247,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-wallet",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "dirs",
  "hex 0.4.3",
  "ol-keys",
@@ -2320,12 +2272,12 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-id-generator",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
  "diem-proptest-helpers",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "enum_dispatch",
  "event-notifications",
  "fail",
@@ -2356,9 +2308,9 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "assert_approx_eq",
- "diem-logger 0.1.0",
- "diem-metrics-core 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-logger",
+ "diem-metrics-core",
+ "diem-workspace-hack",
  "futures",
  "hyper 0.14.19",
  "once_cell",
@@ -2369,36 +2321,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "diem-metrics"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "anyhow",
- "diem-logger 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
- "diem-metrics-core 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
- "diem-workspace-hack 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
- "futures",
- "hyper 0.14.19",
- "once_cell",
- "prometheus",
- "serde_json",
- "tokio 1.18.2",
-]
-
-[[package]]
 name = "diem-metrics-core"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
- "prometheus",
-]
-
-[[package]]
-name = "diem-metrics-core"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "diem-workspace-hack 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
+ "diem-workspace-hack",
  "prometheus",
 ]
 
@@ -2409,11 +2335,11 @@ dependencies = [
  "base64 0.13.0",
  "bcs",
  "diem-global-constants",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-secure-storage",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "rand 0.8.4",
  "serde 1.0.137",
  "thiserror",
@@ -2436,17 +2362,17 @@ dependencies = [
  "diem-data-client",
  "diem-framework-releases",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-json-rpc",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-mempool",
- "diem-metrics 0.1.0",
+ "diem-metrics",
  "diem-secure-storage",
  "diem-temppath",
  "diem-time-service",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "event-notifications",
  "executor",
@@ -2482,14 +2408,14 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-global-constants",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-management",
  "diem-network-address-encryption",
  "diem-secure-storage",
  "diem-temppath",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "fallible",
  "futures",
  "hex 0.4.3",
@@ -2516,8 +2442,8 @@ dependencies = [
  "criterion",
  "crossbeam",
  "crossbeam-queue",
- "diem-infallible 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-infallible",
+ "diem-workspace-hack",
  "mvhashmap",
  "num_cpus",
  "once_cell",
@@ -2532,7 +2458,7 @@ name = "diem-proptest-helpers"
 version = "0.1.0"
 dependencies = [
  "crossbeam",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "proptest",
  "proptest-derive",
 ]
@@ -2541,10 +2467,10 @@ dependencies = [
 name = "diem-rate-limiter"
 version = "0.1.0"
 dependencies = [
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
+ "diem-workspace-hack",
  "futures",
  "pin-project 1.0.10",
  "tokio 1.18.2",
@@ -2557,7 +2483,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-binary-format",
  "move-core-types",
  "move-resource-viewer",
@@ -2574,7 +2500,7 @@ dependencies = [
  "diem-crypto",
  "diem-json-rpc-types",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "move-core-types",
  "reqwest 0.11.10",
@@ -2588,8 +2514,8 @@ dependencies = [
 name = "diem-retrier"
 version = "0.1.0"
 dependencies = [
- "diem-logger 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-logger",
+ "diem-workspace-hack",
  "tokio 1.18.2",
 ]
 
@@ -2602,7 +2528,7 @@ dependencies = [
  "diem-crypto",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-core-types",
  "rand_core 0.6.3",
  "serde 1.0.137",
@@ -2613,9 +2539,9 @@ name = "diem-secure-net"
 version = "0.1.0"
 dependencies = [
  "diem-config",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-secure-push-metrics",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "once_cell",
  "serde 1.0.137",
  "thiserror",
@@ -2625,9 +2551,9 @@ dependencies = [
 name = "diem-secure-push-metrics"
 version = "0.1.0"
 dependencies = [
- "diem-logger 0.1.0",
- "diem-metrics-core 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-logger",
+ "diem-metrics-core",
+ "diem-workspace-hack",
  "ureq",
 ]
 
@@ -2641,12 +2567,12 @@ dependencies = [
  "diem-crypto",
  "diem-crypto-derive",
  "diem-github-client",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-temppath",
  "diem-time-service",
  "diem-vault-client",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "enum_dispatch",
  "rand 0.8.4",
  "serde 1.0.137",
@@ -2661,7 +2587,7 @@ dependencies = [
  "anyhow",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
 ]
 
 [[package]]
@@ -2672,9 +2598,9 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-framework-releases",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "storage-interface",
  "structopt",
@@ -2685,7 +2611,7 @@ dependencies = [
 name = "diem-temppath"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "rand 0.8.4",
 ]
@@ -2694,8 +2620,8 @@ dependencies = [
 name = "diem-time-service"
 version = "0.1.0"
 dependencies = [
- "diem-infallible 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-infallible",
+ "diem-workspace-hack",
  "enum_dispatch",
  "futures",
  "pin-project 1.0.10",
@@ -2711,7 +2637,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-core-types",
  "once_cell",
  "proptest",
@@ -2732,7 +2658,7 @@ dependencies = [
  "diem-types",
  "diem-validator-interface",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "difference",
  "hex 0.4.3",
@@ -2761,7 +2687,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "either",
  "hex 0.4.3",
  "language-e2e-tests",
@@ -2815,7 +2741,7 @@ dependencies = [
  "diem-config",
  "diem-state-view",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "move-binary-format",
  "scratchpad",
@@ -2831,7 +2757,7 @@ dependencies = [
  "diem-crypto",
  "diem-proptest-helpers",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "native-tls",
  "once_cell",
  "proptest",
@@ -2850,12 +2776,12 @@ dependencies = [
  "diem-crypto",
  "diem-framework",
  "diem-framework-releases",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-parallel-executor",
  "diem-state-view",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "fail",
  "mirai-annotations",
  "move-binary-format",
@@ -2883,7 +2809,7 @@ dependencies = [
  "diem-crypto",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "hmac 0.10.1",
  "mirai-annotations",
@@ -2947,60 +2873,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "diem-workspace-hack"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "Inflector",
- "anyhow",
- "backtrace",
- "bitvec 0.19.6",
- "byteorder",
- "bytes 1.1.0",
- "cc",
- "chrono",
- "clap",
- "crossbeam-channel",
- "crossbeam-deque",
- "crossbeam-queue",
- "crossbeam-utils",
- "either",
- "futures",
- "futures-channel",
- "futures-core",
- "futures-io",
- "futures-sink",
- "futures-util",
- "hyper 0.14.19",
- "indexmap",
- "itertools",
- "libc",
- "log",
- "memchr",
- "num-integer",
- "num-traits 0.2.15",
- "plotters",
- "rand 0.8.4",
- "regex",
- "regex-automata",
- "reqwest 0.11.10",
- "rusty-fork",
- "serde 1.0.137",
- "serde_json",
- "standback",
- "subtle 2.4.1",
- "syn 1.0.95",
- "tiny-keccak 2.0.2",
- "tokio 1.18.2",
- "tokio-util 0.6.10",
- "toml",
- "tracing",
- "url",
- "warp",
- "zeroize",
-]
-
-[[package]]
 name = "diem-writeset-generator"
 version = "0.1.0"
 dependencies = [
@@ -3017,7 +2889,7 @@ dependencies = [
  "diem-types",
  "diem-validator-interface",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "handlebars",
  "hex 0.4.3",
@@ -3049,14 +2921,14 @@ dependencies = [
  "byteorder",
  "diem-config",
  "diem-crypto",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-jellyfish-merkle",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-proptest-helpers",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "executor-types",
  "itertools",
  "move-core-types",
@@ -3081,7 +2953,7 @@ dependencies = [
  "anyhow",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "serde 1.0.137",
  "serde_json",
@@ -3471,11 +3343,11 @@ dependencies = [
  "claim",
  "diem-crypto",
  "diem-id-generator",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor-test-helpers",
  "futures",
@@ -3499,15 +3371,15 @@ dependencies = [
  "diem-crypto",
  "diem-genesis-tool",
  "diem-global-constants",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-secure-net",
  "diem-secure-storage",
  "diem-temppath",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "executor",
  "executor-test-helpers",
  "executor-types",
@@ -3529,16 +3401,16 @@ dependencies = [
  "diem-crypto",
  "diem-framework-releases",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
  "diem-secure-net",
  "diem-state-view",
  "diem-temppath",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor-test-helpers",
  "executor-types",
@@ -3567,15 +3439,15 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-jellyfish-merkle",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-secure-push-metrics",
  "diem-temppath",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-types",
@@ -3604,7 +3476,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-types",
@@ -3625,7 +3497,7 @@ dependencies = [
  "diem-secure-net",
  "diem-state-view",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "scratchpad",
  "serde 1.0.137",
  "storage-interface",
@@ -3653,7 +3525,7 @@ checksum = "e88a8acf291dafb59c2d96e8f59828f3838bb1a70398823ade51a84de6a6deed"
 name = "fallible"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "thiserror",
 ]
 
@@ -3738,13 +3610,13 @@ dependencies = [
  "diem-config",
  "diem-framework-releases",
  "diem-genesis-tool",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-rest-client",
  "diem-retrier",
  "diem-sdk",
  "diem-secure-storage",
  "diem-transaction-builder",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "hyper 0.14.19",
  "hyper-proxy",
@@ -3778,7 +3650,7 @@ dependencies = [
  "anyhow",
  "diem-rest-client",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "forge",
  "itertools",
  "rand_core 0.6.3",
@@ -3806,7 +3678,7 @@ dependencies = [
  "bcs",
  "clap",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "include_dir",
  "log",
  "move-binary-format",
@@ -3871,9 +3743,9 @@ dependencies = [
 
 [[package]]
 name = "futures-channel"
-version = "0.3.21"
+version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010"
+checksum = "164713a5a0dcc3e7b4b1ed7d3b433cabc18025386f9339346e8daf15963cf7ac"
 dependencies = [
  "futures-core",
  "futures-sink",
@@ -3881,9 +3753,9 @@ dependencies = [
 
 [[package]]
 name = "futures-core"
-version = "0.3.21"
+version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3"
+checksum = "86d7a0c1aa76363dac491de0ee99faf6941128376f1cf96f07db7603b7de69dd"
 
 [[package]]
 name = "futures-executor"
@@ -3898,9 +3770,9 @@ dependencies = [
 
 [[package]]
 name = "futures-io"
-version = "0.3.21"
+version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fc4045962a5a5e935ee2fdedaa4e08284547402885ab326734432bed5d12966b"
+checksum = "89d422fa3cbe3b40dca574ab087abb5bc98258ea57eea3fd6f1fa7162c778b91"
 
 [[package]]
 name = "futures-macro"
@@ -3917,15 +3789,15 @@ dependencies = [
 
 [[package]]
 name = "futures-sink"
-version = "0.3.21"
+version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868"
+checksum = "ec93083a4aecafb2a80a885c9de1f0ccae9dbd32c2bb54b0c3a65690e0b8d2f2"
 
 [[package]]
 name = "futures-task"
-version = "0.3.21"
+version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a"
+checksum = "fd65540d33b37b16542a0438c12e6aeead10d4ac5d05bd3f805b8f35ab592879"
 
 [[package]]
 name = "futures-util"
@@ -3965,7 +3837,7 @@ dependencies = [
  "diem-crypto",
  "diem-crypto-derive",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-core-types",
  "network",
  "rand 0.8.4",
@@ -3982,7 +3854,7 @@ dependencies = [
  "bcs",
  "diem-crypto",
  "diem-temppath",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "rand 0.8.4",
 ]
 
@@ -4022,7 +3894,7 @@ dependencies = [
  "diem-framework-releases",
  "diem-resource-viewer",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-binary-format",
  "move-core-types",
  "move-vm-test-utils",
@@ -4122,11 +3994,11 @@ dependencies = [
 
 [[package]]
 name = "goldenfile"
-version = "1.2.0"
+version = "1.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3732ab10289fcc53ae0d9bc1479f45a5155450f86403dd63f5f71899d730aa6c"
+checksum = "bf1e66766a6a6960b997e03eeaa212b05b87e0275ede54eb3fe2ec1c6071305b"
 dependencies = [
- "difference",
+ "similar-asserts",
  "tempfile",
 ]
 
@@ -4963,7 +4835,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diem-writeset-generator",
  "goldenfile",
  "hex 0.4.3",
@@ -4991,13 +4863,13 @@ dependencies = [
  "diem-framework-releases",
  "diem-global-constants",
  "diem-keygen",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-parallel-executor",
  "diem-state-view",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diem-writeset-generator",
  "hex 0.4.3",
  "language-e2e-tests",
@@ -5191,7 +5063,7 @@ dependencies = [
  "claim",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "serde 1.0.137",
  "thiserror",
@@ -5203,8 +5075,8 @@ name = "memsocket"
 version = "0.1.0"
 dependencies = [
  "bytes 1.1.0",
- "diem-infallible 0.1.0",
- "diem-workspace-hack 0.1.0",
+ "diem-infallible",
+ "diem-workspace-hack",
  "futures",
  "once_cell",
 ]
@@ -5324,7 +5196,7 @@ checksum = "c9be0862c1b3f26a88803c4a49de6889c10e608b3ee9344e6ef5b45fb37ad3d1"
 [[package]]
 name = "move-abigen"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5341,7 +5213,7 @@ dependencies = [
 [[package]]
 name = "move-binary-format"
 version = "0.0.3"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "mirai-annotations",
@@ -5358,7 +5230,7 @@ dependencies = [
 [[package]]
 name = "move-borrow-graph"
 version = "0.0.1"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "mirai-annotations",
  "workspace-hack",
@@ -5367,7 +5239,7 @@ dependencies = [
 [[package]]
 name = "move-bytecode-source-map"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5384,7 +5256,7 @@ dependencies = [
 [[package]]
 name = "move-bytecode-utils"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -5396,7 +5268,7 @@ dependencies = [
 [[package]]
 name = "move-bytecode-verifier"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "mirai-annotations",
@@ -5410,7 +5282,7 @@ dependencies = [
 [[package]]
 name = "move-bytecode-viewer"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -5428,7 +5300,7 @@ dependencies = [
 [[package]]
 name = "move-cli"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5471,7 +5343,7 @@ dependencies = [
 [[package]]
 name = "move-command-line-common"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "difference",
@@ -5485,7 +5357,7 @@ dependencies = [
 [[package]]
 name = "move-compiler"
 version = "0.0.1"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5513,7 +5385,7 @@ dependencies = [
 [[package]]
 name = "move-core-types"
 version = "0.0.3"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5532,7 +5404,7 @@ dependencies = [
 [[package]]
 name = "move-coverage"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5554,7 +5426,7 @@ dependencies = [
 [[package]]
 name = "move-disassembler"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "colored",
@@ -5573,7 +5445,7 @@ dependencies = [
 [[package]]
 name = "move-docgen"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "codespan",
@@ -5593,7 +5465,7 @@ dependencies = [
 [[package]]
 name = "move-errmapgen"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5608,7 +5480,7 @@ dependencies = [
 [[package]]
 name = "move-ir-compiler"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5628,7 +5500,7 @@ dependencies = [
 [[package]]
 name = "move-ir-to-bytecode"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "codespan-reporting",
@@ -5648,7 +5520,7 @@ dependencies = [
 [[package]]
 name = "move-ir-to-bytecode-syntax"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "hex 0.4.3",
@@ -5662,7 +5534,7 @@ dependencies = [
 [[package]]
 name = "move-ir-types"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "hex 0.4.3",
@@ -5677,7 +5549,7 @@ dependencies = [
 [[package]]
 name = "move-model"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "codespan",
@@ -5704,7 +5576,7 @@ dependencies = [
 [[package]]
 name = "move-package"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5736,7 +5608,7 @@ dependencies = [
 [[package]]
 name = "move-prover"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -5775,7 +5647,7 @@ dependencies = [
 [[package]]
 name = "move-prover-boogie-backend"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -5804,7 +5676,7 @@ dependencies = [
 [[package]]
 name = "move-read-write-set-types"
 version = "0.0.3"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -5816,7 +5688,7 @@ dependencies = [
 [[package]]
 name = "move-resource-viewer"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bcs",
@@ -5832,7 +5704,7 @@ dependencies = [
 [[package]]
 name = "move-stackless-bytecode"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "codespan",
  "codespan-reporting",
@@ -5859,7 +5731,7 @@ dependencies = [
 [[package]]
 name = "move-stackless-bytecode-interpreter"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "bytecode-interpreter-crypto",
@@ -5879,9 +5751,8 @@ dependencies = [
 [[package]]
 name = "move-stdlib"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
- "diem-metrics 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
  "ethers",
  "hex 0.4.3",
  "log",
@@ -5900,7 +5771,6 @@ dependencies = [
  "sha3 0.9.1",
  "smallvec 1.8.0",
  "tiny-keccak 2.0.2",
- "vdf 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
  "walkdir",
  "workspace-hack",
 ]
@@ -5908,7 +5778,7 @@ dependencies = [
 [[package]]
 name = "move-symbol-pool"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "once_cell",
  "serde 1.0.137",
@@ -5918,7 +5788,7 @@ dependencies = [
 [[package]]
 name = "move-transactional-test-runner"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "colored",
@@ -5950,7 +5820,7 @@ dependencies = [
 [[package]]
 name = "move-unit-test"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "colored",
@@ -5975,7 +5845,7 @@ dependencies = [
 [[package]]
 name = "move-vm-runtime"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "fail",
  "mirai-annotations",
@@ -5993,7 +5863,7 @@ dependencies = [
 [[package]]
 name = "move-vm-test-utils"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -6005,7 +5875,7 @@ dependencies = [
 [[package]]
 name = "move-vm-types"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "bcs",
  "mirai-annotations",
@@ -6044,7 +5914,7 @@ dependencies = [
  "arc-swap",
  "crossbeam",
  "dashmap 4.0.2",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "num_cpus",
  "once_cell",
  "proptest",
@@ -6092,9 +5962,9 @@ name = "netcore"
 version = "0.1.0"
 dependencies = [
  "bytes 1.1.0",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "memsocket",
  "pin-project 1.0.10",
@@ -6120,14 +5990,14 @@ dependencies = [
  "diem-crypto",
  "diem-crypto-derive",
  "diem-id-generator",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-logger",
+ "diem-metrics",
  "diem-proptest-helpers",
  "diem-rate-limiter",
  "diem-time-service",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "futures-util",
  "hex 0.4.3",
@@ -6165,13 +6035,13 @@ dependencies = [
  "channel",
  "diem-config",
  "diem-crypto",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-network-address-encryption",
  "diem-secure-storage",
  "diem-time-service",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "event-notifications",
  "futures",
  "netcore",
@@ -6191,14 +6061,14 @@ dependencies = [
  "channel",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-network-address-encryption",
  "diem-secure-storage",
  "diem-temppath",
  "diem-time-service",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "event-notifications",
  "futures",
  "move-core-types",
@@ -6430,7 +6300,7 @@ dependencies = [
 name = "num-variants"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "proc-macro2 1.0.39",
  "quote 1.0.18",
  "syn 1.0.95",
@@ -6471,7 +6341,7 @@ dependencies = [
  "base64 0.13.0",
  "bech32",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "rand 0.8.4",
  "rand_core 0.6.3",
@@ -6567,7 +6437,7 @@ dependencies = [
  "diem-framework-releases",
  "diem-genesis-tool",
  "diem-json-rpc",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-secure-storage",
  "diem-state-view",
  "diem-temppath",
@@ -6625,11 +6495,11 @@ dependencies = [
  "diem-framework-releases",
  "diem-genesis-tool",
  "diem-global-constants",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-json-rpc",
  "diem-json-rpc-types",
  "diem-key-manager",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-management",
  "diem-operational-tool",
  "diem-rest-client",
@@ -6642,7 +6512,7 @@ dependencies = [
  "diem-types",
  "diem-validator-interface",
  "diem-vault-client",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diem-writeset-generator",
  "forge",
  "futures",
@@ -7352,7 +7222,7 @@ dependencies = [
 name = "proxy"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "ipnet",
 ]
 
@@ -7568,7 +7438,7 @@ dependencies = [
 [[package]]
 name = "read-write-set"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -7585,7 +7455,7 @@ dependencies = [
 [[package]]
 name = "read-write-set-dynamic"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "anyhow",
  "move-binary-format",
@@ -8071,8 +7941,8 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-global-constants",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-proptest-helpers",
  "diem-secure-net",
  "diem-secure-push-metrics",
@@ -8080,7 +7950,7 @@ dependencies = [
  "diem-temppath",
  "diem-types",
  "diem-vault-client",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "once_cell",
  "proptest",
  "rand 0.8.4",
@@ -8117,10 +7987,10 @@ dependencies = [
  "anyhow",
  "byteorder",
  "diem-config",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-temppath",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "once_cell",
  "proptest",
  "rocksdb 0.17.0",
@@ -8146,10 +8016,10 @@ dependencies = [
  "bitvec 0.19.6",
  "criterion",
  "diem-crypto",
- "diem-infallible 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-infallible",
+ "diem-metrics",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "itertools",
  "once_cell",
  "proptest",
@@ -8175,7 +8045,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "once_cell",
  "rand 0.8.4",
 ]
@@ -8222,10 +8092,10 @@ dependencies = [
  "diem-client",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "rand 0.8.4",
  "serde_yaml",
@@ -8601,7 +8471,7 @@ checksum = "43b2853a4d09f215c24cc5489c992ce46052d359b5109343cbafbf26bc62f8a3"
 name = "short-hex-str"
 version = "0.1.0"
 dependencies = [
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "mirai-annotations",
  "proptest",
@@ -8621,13 +8491,13 @@ dependencies = [
  "diem-crypto",
  "diem-framework-releases",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-json-rpc-types",
  "diem-node",
  "diem-sdk",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "directories",
  "forge",
@@ -8665,7 +8535,7 @@ version = "0.1.0"
 dependencies = [
  "diem-framework",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "move-stdlib",
  "move-unit-test",
 ]
@@ -8695,6 +8565,26 @@ name = "signature"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f054c6c1a6e95179d6f23ed974060dcefb2d9388bb7256900badad682c499de4"
+
+[[package]]
+name = "similar"
+version = "2.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "420acb44afdae038210c99e69aae24109f32f15500aa708e81d46c9f29d55fcf"
+dependencies = [
+ "bstr",
+ "unicode-segmentation",
+]
+
+[[package]]
+name = "similar-asserts"
+version = "1.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbf644ad016b75129f01a34a355dcb8d66a5bc803e417c7a77cc5d5ee9fa0f18"
+dependencies = [
+ "console 0.15.0",
+ "similar",
+]
 
 [[package]]
 name = "simplelog"
@@ -8797,11 +8687,11 @@ dependencies = [
  "diem-framework-releases",
  "diem-genesis-tool",
  "diem-global-constants",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-json-rpc",
  "diem-json-rpc-types",
  "diem-key-manager",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-management",
  "diem-operational-tool",
  "diem-rest-client",
@@ -8814,7 +8704,7 @@ dependencies = [
  "diem-types",
  "diem-validator-interface",
  "diem-vault-client",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diem-writeset-generator",
  "forge",
  "futures",
@@ -8839,9 +8729,9 @@ version = "0.1.0"
 dependencies = [
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "memsocket",
  "netcore",
@@ -8905,13 +8795,13 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-data-client",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-temppath",
  "diem-time-service",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "event-notifications",
  "executor",
@@ -8939,12 +8829,12 @@ dependencies = [
  "diem-crypto",
  "diem-data-client",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
+ "diem-infallible",
  "diem-temppath",
  "diem-time-service",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "event-notifications",
  "executor",
@@ -8974,17 +8864,17 @@ dependencies = [
  "diem-crypto",
  "diem-framework-releases",
  "diem-genesis-tool",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-mempool",
- "diem-metrics 0.1.0",
+ "diem-metrics",
  "diem-proptest-helpers",
  "diem-temppath",
  "diem-time-service",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "event-notifications",
  "executor",
@@ -9080,11 +8970,11 @@ dependencies = [
  "anyhow",
  "bcs",
  "diem-crypto",
- "diem-infallible 0.1.0",
- "diem-logger 0.1.0",
+ "diem-infallible",
+ "diem-logger",
  "diem-secure-net",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "serde 1.0.137",
  "storage-interface",
 ]
@@ -9099,7 +8989,7 @@ dependencies = [
  "diem-secure-net",
  "diem-state-view",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "itertools",
  "move-core-types",
  "parking_lot 0.11.2",
@@ -9116,12 +9006,12 @@ dependencies = [
  "bcs",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-secure-net",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "futures",
  "itertools",
@@ -9140,7 +9030,7 @@ dependencies = [
  "channel",
  "diem-config",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "network",
  "storage-service-types",
  "thiserror",
@@ -9158,10 +9048,10 @@ dependencies = [
  "claim",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
- "diem-metrics 0.1.0",
+ "diem-logger",
+ "diem-metrics",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "move-core-types",
  "network",
@@ -9181,7 +9071,7 @@ dependencies = [
  "diem-config",
  "diem-crypto",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "num-traits 0.2.15",
  "proptest",
  "serde 1.0.137",
@@ -9263,7 +9153,7 @@ dependencies = [
  "diem-crypto",
  "diem-transaction-builder",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "move-core-types",
  "rand 0.8.4",
@@ -9418,11 +9308,11 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "bcs",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-operational-tool",
  "diem-rest-client",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "forge",
  "rand 0.8.4",
  "tokio 1.18.2",
@@ -9807,7 +9697,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "byteorder",
- "classgroup 0.1.0",
+ "classgroup",
  "criterion",
  "diem-client",
  "diem-config",
@@ -9815,7 +9705,7 @@ dependencies = [
  "diem-genesis-tool",
  "diem-global-constants",
  "diem-json-rpc-types",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-management",
  "diem-secure-storage",
  "diem-transaction-builder",
@@ -9844,7 +9734,7 @@ dependencies = [
  "toml",
  "txs",
  "url",
- "vdf 0.1.0",
+ "vdf",
  "vm-genesis",
  "wait-timeout",
 ]
@@ -9954,7 +9844,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "diem-types",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "heck",
  "move-core-types",
  "regex",
@@ -9975,10 +9865,10 @@ dependencies = [
  "diem-client",
  "diem-config",
  "diem-crypto",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-rest-client",
  "diem-sdk",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "futures",
  "generate-key",
  "itertools",
@@ -10060,7 +9950,7 @@ version = "1.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
- "cfg-if 0.1.10",
+ "cfg-if 1.0.0",
  "static_assertions",
 ]
 
@@ -10073,7 +9963,7 @@ dependencies = [
  "anyhow",
  "bcs",
  "byteorder",
- "classgroup 0.1.0",
+ "classgroup",
  "criterion",
  "dialoguer",
  "diem-client",
@@ -10082,7 +9972,7 @@ dependencies = [
  "diem-genesis-tool",
  "diem-global-constants",
  "diem-json-rpc-types",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-management",
  "diem-secure-storage",
  "diem-transaction-builder",
@@ -10109,7 +9999,7 @@ dependencies = [
  "storage-interface",
  "thiserror",
  "toml",
- "vdf 0.1.0",
+ "vdf",
  "vm-genesis",
  "wait-timeout",
 ]
@@ -10351,21 +10241,9 @@ name = "vdf"
 version = "0.1.0"
 dependencies = [
  "bit-vec 0.5.1",
- "classgroup 0.1.0",
+ "classgroup",
  "criterion",
  "hex 0.3.2",
- "num-traits 0.2.15",
- "sha2 0.8.2",
- "sha3 0.8.2",
-]
-
-[[package]]
-name = "vdf"
-version = "0.1.0"
-source = "git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0#df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0"
-dependencies = [
- "bit-vec 0.5.1",
- "classgroup 0.1.0 (git+https://github.com/0LNetworkCommunity/libra?rev=df4e5d707d8ca5a156413d76e9ff0a050c9c6cb0)",
  "num-traits 0.2.15",
  "sha2 0.8.2",
  "sha3 0.8.2",
@@ -10376,9 +10254,9 @@ name = "vdf-cli"
 version = "0.1.0"
 dependencies = [
  "clap",
- "classgroup 0.1.0",
+ "classgroup",
  "hex 0.3.2",
- "vdf 0.1.0",
+ "vdf",
 ]
 
 [[package]]
@@ -10404,13 +10282,13 @@ dependencies = [
  "diem-framework",
  "diem-framework-releases",
  "diem-global-constants",
- "diem-logger 0.1.0",
+ "diem-logger",
  "diem-proptest-helpers",
  "diem-state-view",
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "hex 0.4.3",
  "move-binary-format",
  "move-bytecode-utils",
@@ -10438,7 +10316,7 @@ dependencies = [
  "diem-transaction-builder",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
+ "diem-workspace-hack",
  "diemdb",
  "executor",
  "executor-test-helpers",
@@ -10765,7 +10643,7 @@ dependencies = [
 [[package]]
 name = "workspace-hack"
 version = "0.1.0"
-source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=a22226aae916ff2d0ac530e838d7522d044ead1f#a22226aae916ff2d0ac530e838d7522d044ead1f"
+source = "git+https://github.com/simsekgokhan/move-0L-v6?rev=3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d#3ad83bc1c4e1ceeabdcb0c2972c0e46dbe934d6d"
 dependencies = [
  "arrayvec 0.5.2",
  "block-buffer 0.9.0",
