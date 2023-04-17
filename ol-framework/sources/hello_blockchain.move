@@ -28,13 +28,13 @@ module ol_framework::hello_blockchain {
         *&borrow_global<MessageHolder>(addr).message
     }
 
-    public entry fun set_message_ol(account: signer, message: string::String)
+    public entry fun set_message_ol(account: &signer, message: string::String)
     acquires MessageHolder {
-        let account_addr = signer::address_of(&account);
+        let account_addr = signer::address_of(account);
         if (!exists<MessageHolder>(account_addr)) {
-            move_to(&account, MessageHolder {
+            move_to(account, MessageHolder {
                 message,
-                message_change_events: account::new_event_handle<MessageChangeEvent>(&account),
+                message_change_events: account::new_event_handle<MessageChangeEvent>(account),
             })
         } else {
             let old_message_holder = borrow_global_mut<MessageHolder>(account_addr);
