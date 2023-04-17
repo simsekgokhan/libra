@@ -10,6 +10,7 @@ members = [
     # "smoke-tests",
     # "txs",
     # "types",
+    "transactional_tests",
     "util",
     "verifiable_delay/classgroup",
     "verifiable_delay/vdf",

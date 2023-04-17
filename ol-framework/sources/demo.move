@@ -1,6 +1,8 @@
 // Simple example to set/get string on chain
+// Taken/modified from aptos-core: 
+// aptos-move/move-examples/hello_blockchain/sources/hello_blockchain.move
 
-module ol_framework::hello_blockchain {
+module ol_framework::demo {
     use std::error;
     use std::signer;
     use std::string;
@@ -28,7 +30,7 @@ module ol_framework::hello_blockchain {
         *&borrow_global<MessageHolder>(addr).message
     }
 
-    public entry fun set_message_ol(account: &signer, message: string::String)
+    public entry fun set_message(account: &signer, message: string::String)
     acquires MessageHolder {
         let account_addr = signer::address_of(account);
         if (!exists<MessageHolder>(account_addr)) {
