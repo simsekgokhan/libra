@@ -348,7 +348,6 @@ dependencies = [
  "diem-temppath",
  "diem-types",
  "diem-vm",
- "diem-workspace-hack 0.1.0",
  "diemdb",
  "executor",
  "executor-test-helpers",
