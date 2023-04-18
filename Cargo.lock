@@ -1721,7 +1721,6 @@ dependencies = [
  "diem-secure-storage",
  "diem-temppath",
  "diem-types",
- "diem-workspace-hack 0.1.0",
  "get_if_addrs",
  "log",
  "mirai-annotations",
