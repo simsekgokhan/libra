@@ -13,7 +13,7 @@ publish = false
 move-bytecode-verifier = { git = "https://github.com/simsekgokhan/move-0L-v6", branch = "v6-libra" }
 move-compiler = { git = "https://github.com/simsekgokhan/move-0L-v6", branch = "v6-libra" }
 diem-types = { path = "../../../types" }
-diem-workspace-hack = { path = "../../../crates/diem-workspace-hack" }
+# diem-workspace-hack = { path = "../../../crates/diem-workspace-hack" }
 move-binary-format = { git = "https://github.com/simsekgokhan/move-0L-v6", branch = "v6-libra" }
 move-core-types = { git = "https://github.com/simsekgokhan/move-0L-v6", branch = "v6-libra" }
 move-vm-types = { git = "https://github.com/simsekgokhan/move-0L-v6", branch = "v6-libra" }

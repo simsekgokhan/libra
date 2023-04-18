@@ -3786,7 +3786,6 @@ dependencies = [
  "bcs",
  "clap",
  "diem-types",
- "diem-workspace-hack 0.1.0",
  "include_dir",
  "log",
  "move-binary-format",
