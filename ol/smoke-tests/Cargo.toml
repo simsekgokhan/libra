@@ -30,7 +30,7 @@ move-ir-compiler = { git = "https://github.com/0LNetworkCommunity/move-0L", rev 
 move-stdlib = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955" }
 diem-types = { path = "../../types" }
 forge = { path = "../../testsuite/forge" }
-diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
+# diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
 
 rand = "0.8.3"
 once_cell = "1.7.2"

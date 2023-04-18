@@ -21,7 +21,7 @@ diem-types = { path = "../../types", version = "0.0.3" }
 
 proptest = { version = "1.0.0", optional = true }
 proptest-derive = { version = "0.3.0", optional = true }
-diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
+# diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
 
 [dev-dependencies]
 proptest = "1.0.0"

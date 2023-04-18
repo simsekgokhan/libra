@@ -15,7 +15,7 @@ move-bytecode-verifier = { git = "https://github.com/0LNetworkCommunity/move-0L"
 move-command-line-common = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955" }
 diem-crypto = { path = "../../../../crates/diem-crypto" }
 diem-types = { path = "../../../../types" }
-diem-workspace-hack = { path = "../../../../crates/diem-workspace-hack" }
+# diem-workspace-hack =  }
 move-binary-format = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955" }
 framework-releases = { path = "../../releases" }
 

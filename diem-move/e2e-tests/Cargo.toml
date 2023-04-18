@@ -43,4 +43,4 @@ diem-types = { path = "../../types", features = ["fuzzing"] }
 diem-proptest-helpers = { path = "../../crates/diem-proptest-helpers" }
 diem-config = { path = "../../config" }
 diem-transaction-builder = { path = "../../sdk/transaction-builder" }
-diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }
+# diem-workspace-hack = { version = "0.1", path = "../../crates/diem-workspace-hack" }

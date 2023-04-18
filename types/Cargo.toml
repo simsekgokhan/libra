@@ -32,7 +32,7 @@ diem-crypto = { path = "../crates/diem-crypto", version = "0.0.3" }
 diem-crypto-derive = { path = "../crates/diem-crypto-derive", version = "0.0.3" }
 move-core-types = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955", version = "0.0.3" }
 move-read-write-set-types = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955" }
-diem-workspace-hack = { version = "0.1", path = "../crates/diem-workspace-hack" }
+# diem-workspace-hack = { version = "0.1", path = "../crates/diem-workspace-hack" }
 
 # //////// 0L ////////
 sha2 = "0.9.1"

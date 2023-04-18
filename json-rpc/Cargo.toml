@@ -40,7 +40,7 @@ diem-metrics = { path = "../crates/diem-metrics" }
 diem-proptest-helpers = { path = "../crates/diem-proptest-helpers", optional = true }
 diem-types = { path = "../types" }
 diem-temppath = { path = "../crates/diem-temppath", optional = true }
-diem-workspace-hack = { version = "0.1", path = "../crates/diem-workspace-hack" }
+# diem-workspace-hack = { version = "0.1", path = "../crates/diem-workspace-hack" }
 executor = { path = "../execution/executor" , optional = true}
 executor-types = { path = "../execution/executor-types" , optional = true}
 move-core-types = { git = "https://github.com/0LNetworkCommunity/move-0L", rev = "94e1039c9fdf1472c2c7775de43135d28dafc955" }
